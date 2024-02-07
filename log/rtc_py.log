@@ -1,0 +1,278 @@
+2024-02-07 17:00:31,275 file.manager INFO 2.0.1
+2024-02-07 17:00:31,275 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:00:31,276 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-07 17:00:31,276 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:00:31,276 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-07 17:00:31,276 file.manager INFO   All right reserved.
+2024-02-07 17:00:31,276 file.manager INFO Manager starting.
+2024-02-07 17:00:31,276 file.manager INFO Starting local logging.
+2024-02-07 17:00:31,278 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:00:31,285 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-07 17:00:31,332 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+2024-02-07 17:00:31,333 file.manager ERROR Module load error: myCobotInit
+2024-02-07 17:00:31,333 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 2869, in __try_direct_load
+    mo = __import__(import_name)
+ModuleNotFoundError: No module named 'myCobotInit'
+
+2024-02-07 17:00:31,344 file.manager ERROR createComponent: Factory not found: myCobot
+2024-02-07 17:00:31,349 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,351 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,354 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,356 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,359 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,361 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,364 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,367 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,370 file.ModuleManager ERROR popen faild
+2024-02-07 17:00:31,576 file.manager INFO 4 loadable modules found
+2024-02-07 17:00:31,576 file.manager INFO Loading module: myCobot.py
+2024-02-07 17:00:31,582 file.manager INFO Component instance conf file: conf/myCobot0.conf loaded.
+2024-02-07 17:00:31,585 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:00:31,585 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:00:31,585 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:00:31,589 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:00:31,592 file.manager INFO Component instance conf file: conf/myCobotAruco0.conf loaded.
+2024-02-07 17:00:31,594 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:00:31,594 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:00:31,594 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:00:31,597 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:00:41,639 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:00:51,678 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:01,718 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:11,756 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:16,883 file.manager INFO 2.0.1
+2024-02-07 17:01:16,883 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:01:16,883 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-07 17:01:16,883 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:01:16,883 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-07 17:01:16,883 file.manager INFO   All right reserved.
+2024-02-07 17:01:16,883 file.manager INFO Manager starting.
+2024-02-07 17:01:16,883 file.manager INFO Starting local logging.
+2024-02-07 17:01:16,886 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:16,889 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-07 17:01:16,919 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+2024-02-07 17:01:16,920 file.manager ERROR Module load error: myCobotInit
+2024-02-07 17:01:16,920 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 2869, in __try_direct_load
+    mo = __import__(import_name)
+ModuleNotFoundError: No module named 'myCobotInit'
+
+2024-02-07 17:01:16,928 file.manager ERROR createComponent: Factory not found: myCobot
+2024-02-07 17:01:16,936 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,939 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,941 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,943 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,946 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,948 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,951 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,954 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:16,957 file.ModuleManager ERROR popen faild
+2024-02-07 17:01:17,097 file.manager INFO 4 loadable modules found
+2024-02-07 17:01:17,097 file.manager INFO Loading module: myCobot.py
+2024-02-07 17:01:17,103 file.manager INFO Component instance conf file: conf/myCobot0.conf loaded.
+2024-02-07 17:01:17,105 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:01:17,106 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:01:17,106 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:01:17,109 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:01:17,112 file.manager INFO Component instance conf file: conf/myCobotAruco0.conf loaded.
+2024-02-07 17:01:17,114 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:01:17,114 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:01:17,114 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:01:17,117 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:01:27,158 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:37,199 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:47,241 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:01:57,283 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:07,321 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:17,361 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:27,403 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:37,444 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:40,151 file.manager INFO 2.0.1
+2024-02-07 17:02:40,151 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:02:40,151 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-07 17:02:40,151 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:02:40,151 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-07 17:02:40,151 file.manager INFO   All right reserved.
+2024-02-07 17:02:40,152 file.manager INFO Manager starting.
+2024-02-07 17:02:40,152 file.manager INFO Starting local logging.
+2024-02-07 17:02:40,154 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:02:40,157 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-07 17:02:40,184 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+2024-02-07 17:02:40,184 file.manager ERROR Module load error: myCobotInit
+2024-02-07 17:02:40,185 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 2869, in __try_direct_load
+    mo = __import__(import_name)
+ModuleNotFoundError: No module named 'myCobotInit'
+
+2024-02-07 17:02:40,192 file.manager ERROR createComponent: Factory not found: myCobot
+2024-02-07 17:02:40,197 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,200 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,202 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,205 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,207 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,209 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,212 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,214 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,217 file.ModuleManager ERROR popen faild
+2024-02-07 17:02:40,357 file.manager INFO 4 loadable modules found
+2024-02-07 17:02:40,357 file.manager INFO Loading module: myCobot.py
+2024-02-07 17:02:40,363 file.manager INFO Component instance conf file: conf/myCobot0.conf loaded.
+2024-02-07 17:02:40,366 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:02:40,366 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:02:40,366 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:02:40,369 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:02:40,373 file.manager INFO Component instance conf file: conf/myCobotAruco0.conf loaded.
+2024-02-07 17:02:40,374 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:02:40,374 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:02:40,375 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:02:40,377 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:02:50,417 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:03:00,458 file.manager.namingmanager INFO NameServer connection failed: corba/localhost:2809
+2024-02-07 17:03:08,503 file.manager INFO 2.0.1
+2024-02-07 17:03:08,503 file.manager INFO Copyright (C) 2003-2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:03:08,503 file.manager INFO   Intelligent Systems Research Institute, AIST,
+2024-02-07 17:03:08,503 file.manager INFO Copyright (C) 2022, Noriaki Ando and OpenRTM development team,
+2024-02-07 17:03:08,503 file.manager INFO   Industrial Cyber-Physical Research Center, AIST,
+2024-02-07 17:03:08,503 file.manager INFO   All right reserved.
+2024-02-07 17:03:08,503 file.manager INFO Manager starting.
+2024-02-07 17:03:08,503 file.manager INFO Starting local logging.
+2024-02-07 17:03:08,505 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost:2809
+2024-02-07 17:03:08,508 file.LocalServiceAdmin INFO All the local services are enabled.
+2024-02-07 17:03:08,536 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+2024-02-07 17:03:08,537 file.manager ERROR Module load error: myCobotInit
+2024-02-07 17:03:08,537 file.manager ERROR Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 401, in activateManager
+    self._module.load(m, basename)
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/ModuleManager.py", line 316, in load
+    mo = __import__(str(import_name))
+  File "/home/rsdlab/workspace/mycobot_move/rtc/myCobotRTC/myCobot.py", line 15, in <module>
+    from pymycobot.genre import Coord
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/__init__.py", line 46, in <module>
+    from pymycobot.mybuddyemoticon import MyBuddyEmoticon
+  File "/home/rsdlab/.local/lib/python3.8/site-packages/pymycobot/mybuddyemoticon.py", line 4, in <module>
+    import cv2 as cv
+ModuleNotFoundError: No module named 'cv2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/OpenRTM_aist/Manager.py", line 2869, in __try_direct_load
+    mo = __import__(import_name)
+ModuleNotFoundError: No module named 'myCobotInit'
+
+2024-02-07 17:03:08,544 file.manager ERROR createComponent: Factory not found: myCobot
+2024-02-07 17:03:08,550 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,552 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,555 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,557 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,559 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,562 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,564 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,566 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,568 file.ModuleManager ERROR popen faild
+2024-02-07 17:03:08,712 file.manager INFO 4 loadable modules found
+2024-02-07 17:03:08,712 file.manager INFO Loading module: myCobot.py
+2024-02-07 17:03:08,718 file.manager INFO Component instance conf file: conf/myCobot0.conf loaded.
+2024-02-07 17:03:08,721 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:03:08,721 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:03:08,721 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:03:08,724 file.rtobject INFO Initial active configuration set is default.
+2024-02-07 17:03:08,728 file.manager INFO Component instance conf file: conf/myCobotAruco0.conf loaded.
+2024-02-07 17:03:08,729 file.ec_base INFO setRate(1000000.000000) done
+2024-02-07 17:03:08,729 file.ec_base INFO setRate(1000.000000) done
+2024-02-07 17:03:08,729 file.rtobject INFO 1 execution context was created.
+2024-02-07 17:03:08,732 file.rtobject INFO Initial active configuration set is default.
