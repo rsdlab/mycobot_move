@@ -2,6 +2,6 @@ connect:
 - rtc1: myCobotAruco
   port1: poseIn
   type1: in
-  rtc2: GUI_mycobot
+  rtc2: mycobot_instruction
   port2: poseOut
   type2: out
